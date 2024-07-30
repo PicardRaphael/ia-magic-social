@@ -28,7 +28,7 @@ Cette application est disponible en Anglais et Français.
 - Next-Intl
 - Zustand
 
-🌟 Fonctionnalités
+## 🌟 Fonctionnalités
 
 - **Génération de contenu IA** : Utilise Gemini AI pour créer du contenu adapté à différentes plateformes sociales.
 - **Historique des requêtes** : Les utilisateurs peuvent consulter l'historique de leurs demandes précédentes.
@@ -68,10 +68,23 @@ npm/yarn/pnpm run dev
 
 ## 🔑 Configuration des Variables d'Environnement
 
-Assurez-vous de configurer les variables d'environnement suivantes dans votre fichier .env :
+Assurez-vous de configurer les variables d'environnement suivantes dans votre fichier `.env` :
+
+```js
 DATABASE_URL=
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 GEMINI_API_KEY=
 STRIPE_SECRET_KEY=
 STRIPE_WEBHOOK_SECRET=
+```
+
+## 📁 Structure du Projet
+
+`/app`: Composants et pages de l'application Next.js
+`/components`: Composants React réutilisables
+`/lib`: Utilitaires, hooks, et configurations
+`/public`: Fichiers statiques
+`/prisma`: Schéma et configurations Prisma
+`/stores`: Store Zustand
+`/messages`: Traduction en/fr pour next-intl
