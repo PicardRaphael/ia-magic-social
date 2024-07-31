@@ -3,7 +3,19 @@
     "name": "Youtube Video Description",
     "desc": "An AI tool that generates youtube video description from your information",
     "category": "Youtube",
-    "aiPrompt": "Give me youtube video description Ideas based on given video description outline and title and give me result in Rich Text Editor format",
+    "aiPrompt": {
+      "role": "Video Marketing Expert",
+      "skills": "Creating engaging content, understanding YouTube trends, SEO writing, Rich Text formatting",
+      "context": "I have the plan and the title of the YouTube video. My goal is to get video description ideas that capture attention and improve SEO.",
+      "task": "Generate YouTube video description ideas based on the given plan and title.",
+      "process": {
+        "step1": "Analyze the provided video plan and title.",
+        "step2": "Generate several captivating and SEO-optimized description ideas.",
+        "step3": "Integrate emojis to make the descriptions more attractive.",
+        "step4": "Format the descriptions using a Rich Text Editor."
+      },
+      "characteristics": "The descriptions should be engaging, relevant, SEO-optimized, and properly formatted in Rich Text. They should also include appropriate emojis."
+    },
     "form": {
       "title": {
         "label": "Youtube Video Description Title"
@@ -17,7 +29,20 @@
     "name": "Youtube Video Idea",
     "desc": "An AI tool that generates Youtube Video Idea based on given information",
     "category": "Youtube",
-    "aiPrompt": "Give me youtube video idea on given video niche & outline topic and give me result in Rich Text Editor format",
+    "aiPrompt": {
+      "role": "YouTube Content Creation Expert",
+      "skills": "Generating creative ideas, understanding YouTube trends, ability to format in Rich Text",
+      "context": "I provide a specific niche and topic. My goal is to obtain YouTube video ideas that are relevant and engaging.",
+      "task": "Propose a YouTube video idea based on the given niche and topic.",
+      "process": [
+        {
+          "step1": "Analyze the given niche and topic.",
+          "step2": "Generate several relevant and engaging video ideas.",
+          "step3": "Format the ideas using a Rich Text Editor."
+        }
+      ],
+      "characteristics": "The ideas should be creative, relevant to the niche and topic, and properly formatted in Rich Text."
+    },
     "form": {
       "niche": {
         "label": "Enter your video niche"
@@ -31,7 +56,20 @@
     "name": "Instagram Hashtags",
     "desc": "An AI tool that generates Instagram hashtags based on your post niche and outline information",
     "category": "Instagram",
-    "aiPrompt": "Give me some good examples of instagram hashtags on given niche & outline topic and give me result in Rich Text Editor format",
+    "aiPrompt": {
+      "role": "Social Media Marketing Expert",
+      "skills": "Knowledge of Instagram trends, research and generation of relevant hashtags, ability to format in Rich Text",
+      "context": "I provide a specific niche and topic. My goal is to obtain good examples of relevant and effective Instagram hashtags.",
+      "task": "Propose good examples of Instagram hashtags based on the given niche and topic.",
+      "process": [
+        {
+          "step1": "Analyze the given niche and topic.",
+          "step2": "Research and generate several examples of relevant and popular hashtags.",
+          "step3": "Format the hashtags using a Rich Text Editor."
+        }
+      ],
+      "characteristics": "The hashtags should be relevant, popular, optimized for reach, and properly formatted in Rich Text."
+    },
     "form": {
       "niche": {
         "label": "Enter your post niche"
@@ -45,7 +83,20 @@
     "name": "Tiktok Hashtags",
     "desc": "An AI tool that generates Tiktok topic idea based on your post niche and outline information",
     "category": "Tiktok",
-    "aiPrompt": "Give me some good examples of instagram hashtags on given niche & outline topic and give me result in Rich Text Editor format",
+    "aiPrompt": {
+      "role": "Social Media Marketing Expert",
+      "skills": "Knowledge of TikTok trends, research and generation of relevant hashtags, ability to format in Rich Text",
+      "context": "I provide a specific niche and topic. My goal is to obtain good examples of relevant and effective TikTok hashtags.",
+      "task": "Propose good examples of TikTok hashtags based on the given niche and topic.",
+      "process": [
+        {
+          "step1": "Analyze the given niche and topic.",
+          "step2": "Research and generate several examples of relevant and popular hashtags.",
+          "step3": "Format the hashtags using a Rich Text Editor."
+        }
+      ],
+      "characteristics": "The hashtags should be relevant, popular, optimized for reach, and properly formatted in Rich Text."
+    },
     "form": {
       "niche": {
         "label": "Enter your post niche"
@@ -59,7 +110,20 @@
     "name": "Linkedin Post",
     "desc": "An AI tool that generates Linkedin Post idea based on your post niche and outline information",
     "category": "Linkedin",
-    "aiPrompt": "Give me some good examples of Linkedin Post idea on given niche & outline topic and give me result in Rich Text Editor format",
+    "aiPrompt": {
+      "role": "Social Media Marketing Expert",
+      "skills": "Knowledge of LinkedIn trends, generation of relevant content ideas, ability to format in Rich Text",
+      "context": "I provide a specific niche and topic. My goal is to obtain good ideas for relevant and engaging LinkedIn posts.",
+      "task": "Propose good ideas for LinkedIn posts based on the given niche and topic.",
+      "process": [
+        {
+          "step1": "Analyze the given niche and topic.",
+          "step2": "Generate several relevant and engaging post ideas.",
+          "step3": "Format the ideas using a Rich Text Editor."
+        }
+      ],
+      "characteristics": "The ideas should be relevant, engaging, optimized for LinkedIn, and properly formatted in Rich Text."
+    },
     "form": {
       "niche": {
         "label": "Enter your post niche"
@@ -73,7 +137,21 @@
     "name": "Tweet",
     "desc": "An AI tool that generates Linkedin Post idea based on your post niche and outline information",
     "category": "Tweet",
-    "aiPrompt": "Give me 280 characters of tweet example on given niche & outline topic",
+    "aiPrompt": {
+      "role": "Social Media Marketing Expert",
+      "skills": "Knowledge of Twitter trends, concise and impactful writing, optimization for engagement, ability to use emojis appropriately, Rich Text formatting",
+      "context": "I provide a specific niche and topic. My goal is to obtain an example of a relevant and engaging tweet with a maximum of 280 characters.",
+      "task": "Propose an example of a tweet with 280 characters based on the given niche and topic.",
+      "process": [
+        {
+          "step1": "Analyze the given niche and topic.",
+          "step2": "Write a concise and impactful tweet that respects the 280 character limit.",
+          "step3": "Integrate emojis to make the tweet more attractive and engaging.",
+          "step4": "Format the tweet using a Rich Text Editor."
+        }
+      ],
+      "characteristics": "The tweet should be relevant, engaging, optimized for Twitter engagement, properly formatted in Rich Text, and include appropriate emojis, all while respecting the 280 character limit."
+    },
     "form": {
       "niche": {
         "label": "Enter your tweet niche"

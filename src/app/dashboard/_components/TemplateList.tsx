@@ -5,7 +5,6 @@ import React from 'react';
 
 const TemplateList = ({ searchInput }: { searchInput: string }) => {
   const t = useTranslations('content');
-  console.log(t);
   return (
     <div className='grid grid-cols-1 md:grid-cols-3 gap-4 mx-5 mt-5'>
       {contentTemplates({ t }).map((template) => (

@@ -5,11 +5,18 @@ export type Content = {
   icon: IconType;
   category: string;
   desc: string;
-  aiPrompt: string;
+  aiPrompt: IAPrompt;
   slug: string;
   form: Array<ContentForm>;
 };
-
+export type IAPrompt = {
+  role: string;
+  skills: string;
+  context: string;
+  task: string;
+  process: string[];
+  characteristics: string;
+};
 export type ContentForm = {
   label: string;
   field: string;

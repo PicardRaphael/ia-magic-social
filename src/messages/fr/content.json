@@ -3,7 +3,19 @@
     "name": "Description de Vidéo YouTube",
     "desc": "Un outil IA qui génère une description de vidéo YouTube à partir de vos informations",
     "category": "YouTube",
-    "aiPrompt": "Donnez-moi des idées de description de vidéo YouTube basées sur le plan et le titre donnés, et fournissez le résultat au format Rich Text Editor",
+    "aiPrompt": {
+      "role": "Expert en marketing vidéo",
+      "skills": "Création de contenu engageant, connaissance des tendances YouTube, rédaction SEO, formatage en Rich Text",
+      "context": "Je dispose du plan et du titre de la vidéo YouTube. Mon objectif est d'obtenir des idées de descriptions de vidéo qui attirent l'attention et améliorent le référencement.",
+      "task": "Proposer des idées de descriptions de vidéo YouTube basées sur le plan et le titre donnés.",
+      "process": {
+        "step1": "Analyser le plan et le titre de la vidéo fournis.",
+        "step2": "Générer plusieurs idées de descriptions captivantes et optimisées pour le SEO...",
+        "step3": "Intégrer des émojis pour rendre les descriptions plus attrayantes...",
+        "step4": "Formater les descriptions en utilisant un éditeur de texte enrichi..."
+      },
+      "characteristics": "Les descriptions doivent être engageantes, pertinentes, optimisées pour le SEO, et correctement formatées en Rich Text. Elles doivent aussi inclure des émojis appropriés."
+    },
     "form": {
       "title": {
         "label": "Titre de la Description de Vidéo YouTube"
@@ -17,7 +29,20 @@
     "name": "Idée de Vidéo YouTube",
     "desc": "Un outil IA qui génère une idée de vidéo YouTube basée sur les informations données",
     "category": "YouTube",
-    "aiPrompt": "Donnez-moi une idée de vidéo YouTube sur le créneau et le sujet donnés, et fournissez le résultat au format Rich Text Editor",
+    "aiPrompt": {
+      "role": "Expert en création de contenu YouTube",
+      "skills": "Génération d'idées créatives, connaissance des tendances YouTube, capacité à formater en Rich Text",
+      "context": "Je fournis un créneau et un sujet spécifiques. Mon objectif est d'obtenir des idées de vidéos YouTube qui soient pertinentes et engageantes.",
+      "task": "Proposer une idée de vidéo YouTube basée sur le créneau et le sujet donnés.",
+      "process": [
+        {
+          "step1": "Analyser le créneau et le sujet donnés.",
+          "step2": "Générer plusieurs idées de vidéos pertinentes et engageantes.",
+          "step3": "Formater les idées en utilisant un éditeur de texte enrichi (Rich Text Editor)."
+        }
+      ],
+      "characteristics": "Les idées doivent être créatives, pertinentes au créneau et au sujet, et correctement formatées en Rich Text."
+    },
     "form": {
       "niche": {
         "label": "Entrez le créneau de votre vidéo"
@@ -31,7 +56,20 @@
     "name": "Hashtags Instagram",
     "desc": "Un outil IA qui génère des hashtags Instagram basés sur le créneau et les informations de votre publication",
     "category": "Instagram",
-    "aiPrompt": "Donnez-moi de bons exemples de hashtags Instagram sur le créneau et le sujet donnés, et fournissez le résultat au format Rich Text Editor",
+    "aiPrompt": {
+      "role": "Expert en marketing des médias sociaux",
+      "skills": "Connaissance des tendances Instagram, recherche et génération de hashtags pertinents, capacité à formater en Rich Text",
+      "context": "Je fournis un créneau et un sujet spécifiques. Mon objectif est d'obtenir de bons exemples de hashtags Instagram pertinents et efficaces.",
+      "task": "Proposer de bons exemples de hashtags Instagram basés sur le créneau et le sujet donnés.",
+      "process": [
+        {
+          "step1": "Analyser le créneau et le sujet donnés.",
+          "step2": "Rechercher et générer plusieurs exemples de hashtags pertinents et populaires.",
+          "step3": "Formater les hashtags en utilisant un éditeur de texte enrichi (Rich Text Editor)."
+        }
+      ],
+      "characteristics": "Les hashtags doivent être pertinents, populaires, optimisés pour la portée et correctement formatés en Rich Text."
+    },
     "form": {
       "niche": {
         "label": "Entrez le créneau de votre publication"
@@ -45,7 +83,20 @@
     "name": "Hashtags TikTok",
     "desc": "Un outil IA qui génère des idées de sujets TikTok basées sur le créneau et les informations de votre publication",
     "category": "TikTok",
-    "aiPrompt": "Donnez-moi de bons exemples de hashtags TikTok sur le créneau et le sujet donnés, et fournissez le résultat au format Rich Text Editor",
+    "aiPrompt": {
+      "role": "Expert en marketing des médias sociaux",
+      "skills": "Connaissance des tendances TikTok, recherche et génération de hashtags pertinents, capacité à formater en Rich Text",
+      "context": "Je fournis un créneau et un sujet spécifiques. Mon objectif est d'obtenir de bons exemples de hashtags TikTok pertinents et efficaces.",
+      "task": "Proposer de bons exemples de hashtags TikTok basés sur le créneau et le sujet donnés.",
+      "process": [
+        {
+          "step1": "Analyser le créneau et le sujet donnés.",
+          "step2": "Rechercher et générer plusieurs exemples de hashtags pertinents et populaires.",
+          "step3": "Formater les hashtags en utilisant un éditeur de texte enrichi (Rich Text Editor)."
+        }
+      ],
+      "characteristics": "Les hashtags doivent être pertinents, populaires, optimisés pour la portée et correctement formatés en Rich Text."
+    },
     "form": {
       "niche": {
         "label": "Entrez le créneau de votre publication"
@@ -59,7 +110,20 @@
     "name": "Publication LinkedIn",
     "desc": "Un outil IA qui génère des idées de publication LinkedIn basées sur le créneau et les informations de votre publication",
     "category": "LinkedIn",
-    "aiPrompt": "Donnez-moi de bons exemples d'idées de publication LinkedIn sur le créneau et le sujet donnés, et fournissez le résultat au format Rich Text Editor",
+    "aiPrompt": {
+      "role": "Expert en marketing des réseaux sociaux",
+      "skills": "Connaissance des tendances LinkedIn, génération d'idées de contenu pertinent, capacité à formater en Rich Text",
+      "context": "Je fournis un créneau et un sujet spécifiques. Mon objectif est d'obtenir de bonnes idées de publications LinkedIn pertinentes et engageantes.",
+      "task": "Proposer de bonnes idées de publications LinkedIn basées sur le créneau et le sujet donnés.",
+      "process": [
+        {
+          "step1": "Analyser le créneau et le sujet donnés.",
+          "step2": "Générer plusieurs idées de publications pertinentes et engageantes.",
+          "step3": "Formater les idées en utilisant un éditeur de texte enrichi (Rich Text Editor)."
+        }
+      ],
+      "characteristics": "Les idées doivent être pertinentes, engageantes, optimisées pour LinkedIn et correctement formatées en Rich Text."
+    },
     "form": {
       "niche": {
         "label": "Entrez le créneau de votre publication"
@@ -73,7 +137,21 @@
     "name": "Tweet",
     "desc": "Un outil IA qui génère des idées de Tweets basées sur le créneau et les informations de votre publication",
     "category": "Tweet",
-    "aiPrompt": "Donnez-moi un exemple de tweet de 280 caractères sur le créneau et le sujet donnés",
+    "aiPrompt": {
+      "role": "Expert en marketing des réseaux sociaux",
+      "skills": "Connaissance des tendances Twitter, rédaction concise et percutante, optimisation pour l'engagement, capacité à utiliser des émojis de manière appropriée, formatage en Rich Text",
+      "context": "Je fournis un créneau et un sujet spécifiques. Mon objectif est d'obtenir un exemple de tweet pertinent et engageant de 280 caractères maximum.",
+      "task": "Proposer un exemple de tweet de 280 caractères basé sur le créneau et le sujet donnés.",
+      "process": [
+        {
+          "step1": "Analyser le créneau et le sujet donnés.",
+          "step2": "Rédiger un tweet concis et percutant qui respecte la limite de 280 caractères.",
+          "step3": "Intégrer des émojis pour rendre le tweet plus attrayant et engageant.",
+          "step4": "Formater le tweet en utilisant un éditeur de texte enrichi (Rich Text Editor)."
+        }
+      ],
+      "characteristics": "Le tweet doit être pertinent, engageant, optimisé pour l'engagement sur Twitter, correctement formaté en Rich Text, et inclure des émojis appropriés, tout en respectant la limite de 280 caractères."
+    },
     "form": {
       "niche": {
         "label": "Entrez le créneau de votre tweet"
