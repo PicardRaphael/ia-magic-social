@@ -1,9 +1,9 @@
 {
-  "LanguageSelector": {
+  "languageSelector": {
     "fr": "Français",
     "en": "Anglais"
   },
-  "Sidebar": {
+  "sidebar": {
     "history": "Historique",
     "upgrade": "Crédit"
   },

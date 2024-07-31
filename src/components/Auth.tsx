@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 import { useTranslations } from 'next-intl';
 
 export const Auth = () => {
-  const t = useTranslations();
+  const t = useTranslations('common');
 
   return (
     <div>

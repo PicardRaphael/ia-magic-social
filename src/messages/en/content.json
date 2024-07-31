@@ -1,0 +1,86 @@
+{
+  "youtubeVideoDescription": {
+    "name": "Youtube Video Description",
+    "desc": "An AI tool that generates youtube video description from your information",
+    "category": "Youtube",
+    "aiPrompt": "Give me youtube video description Ideas based on given video description outline and title and give me result in Rich Text Editor format",
+    "form": {
+      "title": {
+        "label": "Youtube Video Description Title"
+      },
+      "outline": {
+        "label": "Enter Video Description Outline"
+      }
+    }
+  },
+  "youtubeVideoIdea": {
+    "name": "Youtube Video Idea",
+    "desc": "An AI tool that generates Youtube Video Idea based on given information",
+    "category": "Youtube",
+    "aiPrompt": "Give me youtube video idea on given video niche & outline topic and give me result in Rich Text Editor format",
+    "form": {
+      "niche": {
+        "label": "Enter your video niche"
+      },
+      "outline": {
+        "label": "Enter video outline"
+      }
+    }
+  },
+  "instagramHashtags": {
+    "name": "Instagram Hashtags",
+    "desc": "An AI tool that generates Instagram hashtags based on your post niche and outline information",
+    "category": "Instagram",
+    "aiPrompt": "Give me some good examples of instagram hashtags on given niche & outline topic and give me result in Rich Text Editor format",
+    "form": {
+      "niche": {
+        "label": "Enter your post niche"
+      },
+      "outline": {
+        "label": "Enter post outline"
+      }
+    }
+  },
+  "tiktokHashtags": {
+    "name": "Tiktok Hashtags",
+    "desc": "An AI tool that generates Tiktok topic idea based on your post niche and outline information",
+    "category": "Tiktok",
+    "aiPrompt": "Give me some good examples of instagram hashtags on given niche & outline topic and give me result in Rich Text Editor format",
+    "form": {
+      "niche": {
+        "label": "Enter your post niche"
+      },
+      "outline": {
+        "label": "Enter post outline"
+      }
+    }
+  },
+  "linkedinPost": {
+    "name": "Linkedin Post",
+    "desc": "An AI tool that generates Linkedin Post idea based on your post niche and outline information",
+    "category": "Linkedin",
+    "aiPrompt": "Give me some good examples of Linkedin Post idea on given niche & outline topic and give me result in Rich Text Editor format",
+    "form": {
+      "niche": {
+        "label": "Enter your post niche"
+      },
+      "outline": {
+        "label": "Enter post outline"
+      }
+    }
+  },
+  "tweet": {
+    "name": "Tweet",
+    "desc": "An AI tool that generates Linkedin Post idea based on your post niche and outline information",
+    "category": "Tweet",
+    "aiPrompt": "Give me 280 characters of tweet example on given niche & outline topic",
+    "form": {
+      "niche": {
+        "label": "Enter your tweet niche"
+      },
+      "outline": {
+        "label": "Enter tweet outline"
+      }
+    }
+  }
+}

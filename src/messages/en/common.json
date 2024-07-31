@@ -1,9 +1,9 @@
 {
-  "LanguageSelector": {
+  "languageSelector": {
     "fr": "French",
     "en": "English"
   },
-  "Sidebar": {
+  "sidebar": {
     "history": "History",
     "upgrade": "Updgrade"
   },

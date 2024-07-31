@@ -1,7 +1,16 @@
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
+import SearchDashboard from './_components/SearchDashboard';
+import TemplateList from './_components/TemplateList';
 
 const Dashboard = () => {
-  return <div>Enter</div>;
+  const [searchInput, setSearchInput] = useState<string>();
+  return (
+    <div>
+      <SearchDashboard onSearchInput={setSearchInput} />
+      <TemplateList searchInput={searchInput as string} />
+    </div>
+  );
 };
 
 export default Dashboard;

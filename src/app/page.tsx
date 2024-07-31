@@ -8,7 +8,7 @@ import { redirect } from 'next/navigation';
 
 export default function Home() {
   const { userId } = auth();
-  const t = useTranslations();
+  const t = useTranslations('common');
 
   if (userId) {
     redirect('/dashboard');
@@ -77,47 +77,6 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-              <img
-                src='/placeholder.svg'
-                width='550'
-                height='310'
-                alt='Image'
-                className='mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last'
-              />
-            </div>
-          </div>
-        </section>
-        <section className='w-full py-12 md:py-24 lg:py-32'>
-          <div className='container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]'>
-            <img
-              src='/placeholder.svg'
-              width='550'
-              height='310'
-              alt='Image'
-              className='mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last'
-            />
-            <div className='flex flex-col justify-center space-y-4'>
-              <div className='space-y-2'>
-                <div className='inline-block rounded-lg bg-muted px-3 py-1 text-sm'>
-                  Powerful Features
-                </div>
-                <h2 className='text-3xl font-bold tracking-tighter sm:text-5xl'>
-                  Unlock your team's potential
-                </h2>
-                <p className='max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed'>
-                  Empower your team to build better products faster with our
-                  suite of powerful features.
-                </p>
-              </div>
-              <ul className='grid gap-2 py-4'>
-                <li>
-                  Streamline your development workflow with our CI/CD tools.
-                </li>
-                <li>Gain deep insights into your application's performance.</li>
-                <li>
-                  Easily scale your infrastructure to meet growing demand.
-                </li>
-              </ul>
             </div>
           </div>
         </section>

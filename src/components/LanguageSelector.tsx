@@ -19,7 +19,7 @@ const flags = {
 
 const LanguageSelector = () => {
   const router = useRouter();
-  const t = useTranslations('LanguageSelector');
+  const t = useTranslations('common.languageSelector');
   const { language, setLanguage } = useLanguageStore();
 
   const changeLanguage = (locale: string) => {

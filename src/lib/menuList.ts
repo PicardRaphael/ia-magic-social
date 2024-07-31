@@ -1,9 +1,9 @@
+import type { TranslationFunction } from '@/types/Common';
 import { CreditCard, History, LucideIcon, WandSparkles } from 'lucide-react';
-import { useTranslations } from 'next-intl';
 const menuList = ({
   t,
 }: {
-  t: ReturnType<typeof useTranslations>;
+  t: TranslationFunction;
 }): Array<{ name: string; icon: LucideIcon; path: string }> => [
   {
     name: 'Magic Tools',

@@ -1,0 +1,86 @@
+{
+  "youtubeVideoDescription": {
+    "name": "Description de Vidéo YouTube",
+    "desc": "Un outil IA qui génère une description de vidéo YouTube à partir de vos informations",
+    "category": "YouTube",
+    "aiPrompt": "Donnez-moi des idées de description de vidéo YouTube basées sur le plan et le titre donnés, et fournissez le résultat au format Rich Text Editor",
+    "form": {
+      "title": {
+        "label": "Titre de la Description de Vidéo YouTube"
+      },
+      "outline": {
+        "label": "Entrez le Plan de la Description de la Vidéo"
+      }
+    }
+  },
+  "youtubeVideoIdea": {
+    "name": "Idée de Vidéo YouTube",
+    "desc": "Un outil IA qui génère une idée de vidéo YouTube basée sur les informations données",
+    "category": "YouTube",
+    "aiPrompt": "Donnez-moi une idée de vidéo YouTube sur le créneau et le sujet donnés, et fournissez le résultat au format Rich Text Editor",
+    "form": {
+      "niche": {
+        "label": "Entrez le créneau de votre vidéo"
+      },
+      "outline": {
+        "label": "Entrez le plan de la vidéo"
+      }
+    }
+  },
+  "instagramHashtags": {
+    "name": "Hashtags Instagram",
+    "desc": "Un outil IA qui génère des hashtags Instagram basés sur le créneau et les informations de votre publication",
+    "category": "Instagram",
+    "aiPrompt": "Donnez-moi de bons exemples de hashtags Instagram sur le créneau et le sujet donnés, et fournissez le résultat au format Rich Text Editor",
+    "form": {
+      "niche": {
+        "label": "Entrez le créneau de votre publication"
+      },
+      "outline": {
+        "label": "Entrez le plan de la publication"
+      }
+    }
+  },
+  "tiktokHashtags": {
+    "name": "Hashtags TikTok",
+    "desc": "Un outil IA qui génère des idées de sujets TikTok basées sur le créneau et les informations de votre publication",
+    "category": "TikTok",
+    "aiPrompt": "Donnez-moi de bons exemples de hashtags TikTok sur le créneau et le sujet donnés, et fournissez le résultat au format Rich Text Editor",
+    "form": {
+      "niche": {
+        "label": "Entrez le créneau de votre publication"
+      },
+      "outline": {
+        "label": "Entrez le plan de la publication"
+      }
+    }
+  },
+  "linkedinPost": {
+    "name": "Publication LinkedIn",
+    "desc": "Un outil IA qui génère des idées de publication LinkedIn basées sur le créneau et les informations de votre publication",
+    "category": "LinkedIn",
+    "aiPrompt": "Donnez-moi de bons exemples d'idées de publication LinkedIn sur le créneau et le sujet donnés, et fournissez le résultat au format Rich Text Editor",
+    "form": {
+      "niche": {
+        "label": "Entrez le créneau de votre publication"
+      },
+      "outline": {
+        "label": "Entrez le plan de la publication"
+      }
+    }
+  },
+  "tweet": {
+    "name": "Tweet",
+    "desc": "Un outil IA qui génère des idées de Tweets basées sur le créneau et les informations de votre publication",
+    "category": "Tweet",
+    "aiPrompt": "Donnez-moi un exemple de tweet de 280 caractères sur le créneau et le sujet donnés",
+    "form": {
+      "niche": {
+        "label": "Entrez le créneau de votre tweet"
+      },
+      "outline": {
+        "label": "Entrez le plan du tweet"
+      }
+    }
+  }
+}
