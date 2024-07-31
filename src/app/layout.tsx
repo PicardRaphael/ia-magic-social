@@ -6,9 +6,9 @@ import './globals.css';
 
 export default async function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   const cookieStore = cookies();
   const locale = cookieStore.get('NEXT_LOCALE')?.value || 'en';
 

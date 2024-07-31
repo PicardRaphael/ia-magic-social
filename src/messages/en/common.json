@@ -3,6 +3,10 @@
     "fr": "French",
     "en": "English"
   },
+  "Sidebar": {
+    "history": "History",
+    "upgrade": "Updgrade"
+  },
   "title": "Ultimate AI Content Generator",
   "signIn": "Sign In",
   "description": "Our platform offers a suite of powerful tools to help you generate social media contents with the power of AI."
